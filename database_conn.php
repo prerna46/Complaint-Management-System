@@ -1,3 +1,9 @@
+<html>
+<body>
+
+Your Username is: <?php echo $_POST["usrname"]; ?><br>
+Your Password is: <?php echo $_POST["passwrd"]; ?>
+
 <?php
 
 $localhost="localhost";
@@ -39,3 +45,5 @@ $con->close();
 
 
 ?>
+</body>
+</html>
